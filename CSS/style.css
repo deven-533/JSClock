@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(212, 172, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.clock
+{
+    width: 650px;
+    height: 300px;
+    background-color: rgb(91, 84, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aliceblue;
+    animation-name: c1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+#bo1
+{
+    font-size:35px;
+    margin-right: 15px;
+}
+
+@keyframes c1 {
+    from
+    {
+        width: 650px;
+    height: 300px;
+
+
+
+    }
+    to
+    {
+        width: 700px;
+        height: 350px;
+    }
+}
